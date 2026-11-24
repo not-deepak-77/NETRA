@@ -7,7 +7,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background: #000408;
+    background: #08111f;
     color: #edf4ff;
     font-family: Arial, sans-serif;
     min-height: 100vh;
@@ -40,7 +40,7 @@ button:hover {
     gap: 12px;
 }
 .brand-logo {
-    background: #0f83f6;
+    background: #287ee8;
     border-radius: 10px;
     padding: 12px 16px;
     font-size: 23px;
@@ -84,49 +84,41 @@ nav a:hover {
     margin-left: 10px;
     font-family: monospace;
 }
-
-.page {
-    padding: 35px 5%;
+.page p{
+    color:white
 }
+.kpi_grid{
+    display:grid;
+    grid-template-colums:repeat(4,1fr);
+    gap:16px;
+    margin-bottom:30px;
 
-.page p { 
-    color: #91a8c5;
-}
+    .pi-card, .panel{
+        background:blue
+        border: 1px solid white
+    border-radius:12px;
+  }
 
-.kpi-grid { 
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
-    margin-bottom: 30px;
-}
+  .kpi-card{
+    padding:22px;
+    transition:0.2s;
+  }
 
-.kpi-card,.panel {
-    background: #14243a;
-    border: 1px solid #2a4262;
-    border-radius: 12px;
-}
-
-.kpi-card {
-    NETRA 16-Part Execution Plan | page 12
-    padding: 22px;
-    transition: 0.2s;
-}
-
-.kpi-card:hover {
-    border-color: #438cff;
+  .kpi-card:hover{
+    border-color:grey
     transform: translateY(-3px);
-}
-.kpi-card span { 
-    color: #91a8c5;
-    font-size: 10px;
-    letter-spacing: 1px;
-    font-weight: bold;
-}
+  }
 
-.kpi-card h2 {
-    color:b #54a5ff;
-    font-size: 29px;
-    margin: 14px 0 8px;
+.kpi-card span{
+    color:blue
+    font-size:10px;
+    letter-spacing:1px;
+    font-weight:bold;
 }
-
-
+.kpi-card h2{
+    color:blue;
+    font-size:29px;
+    margin:14px 0 8px;
+}
+.kpi-card
+}
